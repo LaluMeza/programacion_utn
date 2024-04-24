@@ -1,0 +1,30 @@
+/*font-family: "Open Sans", sans-serif;
+font-family: "Pacifico", cursive;*/
+.texto{
+    background-color: yellow;
+    column-count: 3;/*cant. de columnas*/
+    column-gap: 60px;
+    column-rule: 1px solid black;
+    text-align: center;
+    color: green;
+    box-shadow: -18px 21px 10px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -18px 21px 10px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -18px 21px 10px 4px rgba(0,0,0,0.75);
+}
+
+.texto p{
+    margin: 0; /*elimina el espacio superior que se genera automaticamente*/
+}
+
+h1, h2{
+    font-family: "Pacifico", cursive;
+}
+
+p{
+    font-family: "Open Sans", sans-serif 
+}
+
+.iconos{
+    font-size: 200px;
+    color: aqua;
+}
