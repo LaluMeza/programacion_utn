@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /*flex-direction: row; por defecto*/
+    /*flex-direction: row-reverse;*/
+    flex-direction: column-reverse;
+
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}

@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /*flex-wrap: nowrap; por defecto-no hay desbordamiento*/
+    flex-wrap: wrap;/*multilinea*/
+    flex-wrap: wrap-reverse;/*cambia el sentido del orden de las cajas*/
+
+}
+
+.item{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}
