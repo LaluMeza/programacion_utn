@@ -1,0 +1,32 @@
+body{
+    background-color: #332f29;
+}
+
+.contenedor{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+header{
+    background-color: #8fa68e;
+    padding: 20px;
+}
+
+.holder{
+    display: flex;
+}
+
+nav{
+    background-color: #c0392b;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: white;
+    text-align: none;
+    font-size: 20px;
+}
